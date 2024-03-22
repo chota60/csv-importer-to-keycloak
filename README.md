@@ -3,6 +3,7 @@
 
 # ユーザのインポート
 - input: csv
+- master realm のユーザでアクセストークン取得
 - plain realm に入れる
 
 雑だが　python によってalt shell を作る
@@ -17,5 +18,5 @@
     - ユーザ登録
       - username, password , token を利用して HTTP request を送る
 
-これで終わる感じがする
+一時的なパスワードとして作成するので、このツールの実行者は一応知っているが一度ログインされた後ならまあほぼ知らないと思っていいはず
 
