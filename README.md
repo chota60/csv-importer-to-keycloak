@@ -8,6 +8,11 @@
 
 雑だが　python によってalt shell を作る
 
+## 前提
+- host からみて、 localhost:8080 に Keycloak が起動している
+- master realm で管理ユーザを管理している
+- palin realm で今回のサンプル用のユーザを管理している
+
 ## 設計イメージ
 - csv 読み込み
 - リストにしておく
